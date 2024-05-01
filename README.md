@@ -18,6 +18,13 @@ Overcame challenges, honed problem-solving skills, and fostered a passion for we
 📧 Contact:
 For inquiries or collaborations, drop me an email a [tiwari27deepanshu38kt@gmail.com].
 
+Tasks:-
+LEVEL 1:
+1.Portfolio
+2.Landing Page
+3.Calculator
+
+
 Duration:-
 10/04/2024-10/05/2024
  
