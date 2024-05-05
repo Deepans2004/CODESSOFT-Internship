@@ -89,11 +89,11 @@ body{
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
+    background: #081b29;
     border: 2px solid #00abf0;
     border-radius: 8px;
     font-size: 19px;
-    color: #081b29;
+    color: #fbfeff;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -103,16 +103,14 @@ body{
 
 btn-box a:nth-child(2){
     background: transparent;
-    color: #00abf0;
+    color: #1f86af;
 }
 btn-box a:nth-child(2):hover{
-color: #081b29;
-
-
+color: #008cf1;
 }
 
 btn-box a:nth-child(2)::before{
-    background: #00abf0;
+    background: #081b29;
 }
 .btn-box a:before{
     content: '';
@@ -121,12 +119,41 @@ btn-box a:nth-child(2)::before{
     left: 0;
     width: 0;
     height: 100%;
-    background: #081b29;
+    background: #008cf1;
     z-index: -1;
     transition: .5s;
 }
 
 .btn-box a:hover::before{
     width: 100%;
+}
 
+.home-sec{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.home-sec a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #f1fbff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.home-sec a:hover{
+    cursor: pointer;
+    border: 2px solid #008cf1;
+    color: #008cf1;
+    transform: scale(.9);
 }
