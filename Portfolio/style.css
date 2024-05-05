@@ -52,7 +52,7 @@ html{
 
 .home{
     height: 100vh;
-    background: url(new.jpg) no-repeat;
+    background: url(assets/new.jpg) no-repeat;
     /* background-size: cover; */
     display: flex;
     align-items: center;
