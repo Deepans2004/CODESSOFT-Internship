@@ -8,8 +8,12 @@
 }
 
 body{
-    background: #081b29;
+    /* background: #081b29; */
     color: #ededed;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .header{
@@ -48,6 +52,8 @@ body{
 
 .home{
     height: 100vh;
+    background: url(new.jpg) no-repeat;
+    /* background-size: cover; */
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -137,6 +143,7 @@ btn-box a:nth-child(2)::before{
 }
 
 .home-sec a{
+    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
