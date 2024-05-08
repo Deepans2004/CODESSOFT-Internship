@@ -15,16 +15,16 @@
         <a href="#" class="logo">Deepanshu.</a>
 
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About me</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
             <a href="#">Skills</a>
             <a href="#">Interests</a>
             <a href="#">Contact</a>
         </nav>
     </header>
 
-    <section class="home">
-        <div class="home-content">
+    <section class="home" >
+        <div class="home-content" id="home">
             <h1>Hi, I'm Deepanshu</h1>
             <h3>Programmer</h3>
             <p>Hey! Myself Deepanshu Tiwari .I'm a programmer from India.I'm into Data Structure And Algorithms & Front-End Development. </p>
@@ -42,7 +42,49 @@
         </div>
     </section>
 
-
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="new" src="assets/about.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello,I'm a Front-End developer, I specialize in translating creative visions into functional and visually appealing websites. 
+                        With a keen eye for design, I also excel as a UI/UX designer, ensuring user-centric interfaces that elevate the overall user experience. 
+                        My proficiency in programming languages empowers me to bring innovative ideas to life, making me a dedicated and dynamic force in the world of web development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('tech')">Tech Stack</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/APP interfaces</li>
+                            <li><span>Front-End Web Development</span><br>Front-End app Development</li>
+                            <li><span>Programmer</span><br>Competitive Programming<br>Data Structure/Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tech">
+                        <ul>
+                            <li><span>Frameworks</span><br>Bootstrap5<br>Tailwind CSS<br>React</li>
+                            <li><span>Designing</span><br>Canva<br>WebFlow</li>
+                            <li><span>IDE</span><br>Visual Studio Code</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>High School from Doon Convent School</li>
+                            <li><span>2021</span><br>Intermediate from Doon Convent School</li>
+                            <li><span>2022</span><br>B.Tech from GEHU Haldwani.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
